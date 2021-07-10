@@ -38,7 +38,7 @@ public  class ARRAYS
 	
 	
 	
-	public static void main(String...axyzbcde)
+	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
 		int size=sc.nextInt();
@@ -61,7 +61,7 @@ public  class ARRAYS
 
 public  class ARRAYS
 {
-	public static void main(String...axyzbcde)
+	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
 		int size=sc.nextInt();
