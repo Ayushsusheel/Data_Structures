@@ -40,3 +40,52 @@ public  class ARRAYS
 		
 	}
 }
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+public static int solution(int a[],int size)
+	{
+		int max_sum=-9999999999,curr_sum=0;
+		for(int i=0;i<a.length;i++)
+		{
+			curr_sum=curr_sum+a[i];
+			if(curr_sum>max_sum)
+			{
+				max_sum=curr_sum;
+			}
+			 if(curr_sum<0)
+			{
+				curr=0;
+			}
+			
+		}
+		return max_sum;
+	}
+
+
+/*
+intialize max sum as -infinity....or simply Integer.MIN_VALUE
+
+if the maximum sum is less than current update max....
+
+if now current sum has became -ve discard that part and make current sum again as ZERO!!!.... 
+*/
+
+
+
+
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
